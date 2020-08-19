@@ -95,7 +95,6 @@ using Intake's `to_dask()` method:
 
 .. ipython:: python
 
-    entry = catalog['thumbnail']
     da = entry.to_dask()
     display(da)
 
